@@ -1,0 +1,61 @@
+body {
+  background-image: url(d20dced4f45f1c9b25e8313a6b796c8b.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.color-link a:link {
+  color: rgb(216, 230, 126);
+}
+
+.color-link a:visited {
+  color: darkslateblue;
+}
+
+.color-link a:hover {
+  color: cadetblue;
+}
+
+.color-link a:active {
+  color: darkred;
+}
+
+.button-link a:link,
+.button-link a:visited {
+  background-color: #a37a77;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-link a:hover,
+.button-link a:active {
+  background-color: rgb(73, 32, 90);
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(92, 48, 85);
+  border-style: inset;
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+th {
+  text-align: left;
+}
+
+tr:hover:nth-child(even) {
+  background-color: #9eb194;
+}
