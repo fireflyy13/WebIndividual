@@ -1,0 +1,547 @@
+body {
+  background-image: url(/SR1/images/d20dced4f45f1c9b25e8313a6b796c8b.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.color-link a:link {
+  color: rgb(216, 230, 126);
+}
+
+.color-link a:visited {
+  color: darkslateblue;
+}
+
+.color-link a:hover {
+  color: cadetblue;
+}
+
+.color-link a:active {
+  color: darkred;
+}
+
+#button-link a:link,
+#button-link a:visited {
+  background-color: #a37a77;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button-link a:hover,
+#button-link a:active {
+  background-color: rgb(73, 32, 90);
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(92, 48, 85);
+  border-style: inset;
+  border-radius: 10px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table {
+  border-spacing: 5px;
+  background-color: rgb(241, 211, 216);
+}
+
+th {
+  text-align: left;
+}
+
+tr:hover:nth-child(even) {
+  background-color: #9eb194;
+}
+
+p.center {
+  text-align: center;
+  color: rgb(244, 246, 240);
+}
+
+* {
+  font-family: "Vollkorn";
+}
+
+p.ex1 {
+  margin-left: inherit;
+  color: rgb(208, 230, 211);
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+ul.e {
+  list-style-image: url(/SR1/images/ezgif-3-6633569d0f.gif);
+}
+
+ul.f {
+  list-style-position: outside;
+}
+
+ul.g {
+  list-style-position: inside;
+  list-style: square inside;
+  background: #a37a7768;
+  padding: 20;
+}
+
+ul.k {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.one {
+  border-collapse: collapse;
+}
+
+.one th {
+  height: 70px;
+}
+
+.two th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid #e74e8b;
+}
+
+.two tr:hover {
+  background-color: #efa8c472;
+}
+
+.three {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+@keyframes example {
+  from {
+    background-color: rgb(108, 137, 169);
+  }
+  to {
+    background-color: rgb(213, 119, 110);
+  }
+}
+
+.anime {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(108, 137, 169);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes example2 {
+  0% {
+    background-color: rgb(224, 73, 73);
+  }
+  25% {
+    background-color: rgba(227, 210, 78, 0.818);
+  }
+  50% {
+    background-color: rgb(55, 55, 122);
+  }
+  100% {
+    background-color: rgb(115, 43, 149);
+  }
+}
+
+.anime2 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+}
+
+@keyframes example3 {
+  0% {
+    background-color: rgb(95, 25, 22);
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: rgb(67, 35, 68);
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: rgb(14, 14, 69);
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: rgb(87, 119, 87);
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: rgb(123, 86, 86);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.anime3 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: rgb(95, 25, 22);
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.div1 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+}
+
+.div2 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+}
+
+.div3 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+}
+
+.div4 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+
+.div5 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+}
+
+.div6 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+.div7 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-fill-mode: backwards;
+}
+
+.div8 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(224, 73, 73);
+  animation-name: example;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+
+.tp,
+.tp1,
+.tp2,
+.tp3,
+.tp_arrow,
+.tp_arrow1 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tp .tooltiptext,
+.tp1 .tooltiptext1,
+.tp2 .tooltiptext2,
+.tp3 .tooltiptext3,
+.tp_arrow .tooltiptext_arrow,
+.tp_arrow1 .tooltiptext_arrow1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(81, 64, 64);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tp:hover .tooltiptext,
+.tp1:hover .tooltiptext1,
+.tp2:hover .tooltiptext2,
+.tp3:hover .tooltiptext3,
+.tp_arrow:hover .tooltiptext_arrow,
+.tp_arrow1:hover .tooltiptext_arrow1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tp .tooltiptext {
+  top: -5px;
+  left: 105%;
+}
+
+.tp1 .tooltiptext1 {
+  top: -5px;
+  right: 105%;
+}
+
+.tp2 .tooltiptext2 {
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tp3 .tooltiptext3 {
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tp_arrow .tooltiptext_arrow::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tp_arrow1 .tooltiptext_arrow1::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 100%; /* To the right of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: 1px solid #846455;
+  margin: 0 4px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.pagination a.active {
+  background-color: #846455;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: rgb(147, 124, 117);
+  column-width: 100px;
+}
+
+.dd {
+  position: relative;
+  display: inline-block;
+  color: #000000;
+  font-size: 20px;
+}
+
+.dd-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dd:hover .dd-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dd {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dd-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dd-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dd-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dd:hover .dd-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dd:hover .dropbtn {
+  background-color: #765958;
+}
+
+.transpar {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border: 2px solid rgb(123, 95, 95);
+}
+
+.divex {
+  color: rgb(12, 12, 93);
+  border: 10px solid currentcolor;
+}
+
+.exp {
+  width: 100px;
+  height: 100px;
+  background: rgb(93, 44, 97);
+  transition: width 2s, height 4s, transform 2s;
+  transition-delay: 1s;
+}
+
+.exp:hover {
+  width: 300px;
+}
+
+p.test1 {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+p.test2 {
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.test2:hover {
+  overflow: visible;
+}
